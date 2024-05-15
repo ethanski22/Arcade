@@ -13,6 +13,27 @@ public class BlockBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("a"))
+        {
+            Debug.Log("A was pressed");
+        }
+
+        if (Input.GetKeyUp("a"))
+        {
+            Debug.Log("A was released");
+        }
+
+        if (Input.GetKeyDown("d"))
+        {
+            Debug.Log("D was pressed");
+        }
+
+        if (Input.GetKeyUp("d"))
+        {
+            Debug.Log("D was released");
+        }
+
     }
+
+    // int speed = 5;
 }
